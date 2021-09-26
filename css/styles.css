@@ -9,6 +9,16 @@ h1 {
   font-weight: 900;
   color: white;
 }
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+
+
+
 .container-fluid{
   padding: 3% 15%;
 }
@@ -94,3 +104,49 @@ p{
 .icon:hover{
   color: #ff4c68;
 }
+
+/* testimonials section */
+#testimonials{
+  text-align: center;
+  background-color:#ef8172;
+  color: white;
+}
+
+.carousel-item{
+  /* height: 500px; */
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.pricing-col:hover{
+  transform:scale(1.05);
+}
+
+
+.btn-pricing{
+  margin-top: auto;
+}
+
+
